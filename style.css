@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.msg {
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.me {
+  color: #7dd3fc;
+}
+
+input {
+  border: none;
+  padding: 14px;
+  background: #1c1c1c;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
